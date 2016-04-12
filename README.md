@@ -43,7 +43,7 @@ zval *event; // struct containing info about the event
 const char *error_filename; // filename in which the error occured 
 long error_lineno; // line in which the error occured 
 long type; // error type, see [Predefined Constants] (http://php.net/manual/en/errorfunc.constants.php)
-const char *appname; // app identifier string, configured with the aware.appname directive but can be overridden from PHP code
+const char *appname; // app identifier string, configured with the jam.appname directive but can be overridden from PHP code
 ```
 
 	* the backend stores the event as defined in its PHP_JAM_STORE_FUNC()
@@ -228,7 +228,7 @@ All available backends are under the storage dir, config and build instructions 
     </tr><tr>    
         <td> jam.storage_modules </td>
 		<td> string </td>
-		<td> Comma separated list of storage backend modules to enable (i.e aware.storage_modules="elasticsearch,email")</td>
+		<td> Comma separated list of storage backend modules to enable (i.e jam.storage_modules="elasticsearch,email")</td>
 	    <td>PHP_INI_PERDIR</td>
     </tr><tr>
         <td> jam.slow_request_threshold </td>
