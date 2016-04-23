@@ -289,7 +289,7 @@ All available backends are under the storage dir, config and build instructions 
 
 ### Bootstrapping
     JaM stores its event under the 'jam' index.
-    See [mappings.json] (mappings.json)
+    See [jam_mappings.json] (jam_mappings.json)
 
     To create initial fields mappings for it, use:
 ```
