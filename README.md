@@ -23,7 +23,7 @@ php-aware was developed by Mikko Koppanen.
 
 The jam extension overrides Zend's Engine zend_error_cb(), set_error_handler() and restore_error_handler() with a custom function that takes a copy of the current context, sends the error to the backends set in the jam.storage_modules directive and then calls the original error handler(s).
 
-Each backend storage is a separate PHP extension and additional backends can therefore easily be added, see [Creating additional storage backends] (https://github.com/jessp01/jam#creating-additional-storage-backends). 
+Each backend storage is a separate PHP extension and additional backends can therefore easily be added, see [Creating additional storage backends] (README.md#creating-additional-storage-backends). 
 
 The backend will receive a zval * containing information about the current error which it then stores based on it's own configuration. 
 
