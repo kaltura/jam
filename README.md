@@ -127,7 +127,7 @@ $ make
 # make install
 ```
 
-See [Core INI settings] (https://github.com/jessp01/jam#core-ini-settings) for the available directives.
+See [Core INI settings] (README.md#core-ini-settings) for the available directives.
 
 ### Compiling backend extensions
 By itself JaM will do pretty much nothing for you, next, select the backends you are interested in and cd into their dir under storage, for instance, if you are interested in the elasticsearch backend:
@@ -139,7 +139,7 @@ $ make
 # make install
 ```
 
-See [elasticsearch->INI settings] (https://github.com/jessp01/jam#ini-settings) for the relevant directives.
+See [elasticsearch->INI settings] (README.md#ini-settings) for the relevant directives.
 
 All available backends are under the storage dir, config and build instructions are the same for all.
 
